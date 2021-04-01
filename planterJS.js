@@ -124,7 +124,7 @@ function buildCylinder(){
     var radius = document.getElementById("radius").value;
     var height = document.getElementById("height").value;
 
-    var type = "Square Cube Planter";
+    var type = "Cylinder shape Planter";
 
     var squareVolume = (3.14 * radius * radius * height).toFixed(2);
     var totalCost = (squareVolume * 0.0012).toFixed(2);
@@ -153,7 +153,7 @@ function buildSpherical(){
 
     var radius = document.getElementById("radius").value;
 
-    var type = "Square Cube Planter";
+    var type = "Spherical shape planter";
 
     var squareVolume = (0.5 * (4/3) * 3.14  * radius * radius * radius).toFixed(2);
     var totalCost = (squareVolume * 0.0015).toFixed(2);
@@ -183,7 +183,7 @@ function buildCone(){
     var radius = document.getElementById("radius").value;
     var radius2 = document.getElementById("radius2").value;
 
-    var type = "Square Cube Planter";
+    var type = "Truncated Cone Planter";
 
     var squareVolume = ((1/3) *  3.14  * (radius * radius * radius2 + radius2 * radius2)).toFixed(2);
     var totalCost = (squareVolume * 0.002).toFixed(2);
