@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <script type="text/javascript" src="planterJS.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Poller+One" rel="stylesheet" />
+    <link rel="stylesheet" href="planterCSS.css" type="text/css" />
+    <title></title>
+</head>
+<body>
+    <div id="squareForm"><br><br>
+        <h3>Square/Rectangular Shape</h1><br>
+        <form action="" method="GET">
+            <label for="width" style="color: bisque;">Width</label>
+            <input type="number" id="width" value="10" min="10" max="50">cm
+            <label for="length" style="color: coral;">Length</label>
+            <input type="number" id="length" value="10" min="10" max="50">cm
+            <label for="height" style="color:lightgreen">Height</label>
+            <input type="number" id="height" value="10" min="10" max="50">cm<br><br>
+            <input type="button" id="calculateSquare" value="Build" style="padding: 10px 20px;" onclick="buildSquare()">
+            <input type="reset" id="reset" value="Clear" style="padding: 10px 20px;">
+            <input type="button" id="backToMain2" value="Back To Main" onclick="backToMain()" style="background-color: coral; border-color: coral; padding: 10px 20px;" > 
+        </form><br><br>
+        
+    </div><br><br>
+    <span id="result" style="text-align: center;"> 
+    
+</body>
+</html>

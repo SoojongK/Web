@@ -1,0 +1,225 @@
+body {
+	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 500% 500%;
+	animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+h1{
+    text-align: center;
+    color:white;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    font-family:'Poller One';
+
+}
+#form{ 
+    color: white;
+    font-family:'Poller One';
+    margin: auto;
+    text-align: center;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+
+}
+#squareForm{ 
+    color: white;
+    font-family:'Poller One';
+    margin: auto;
+    text-align: center;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+
+}
+
+#cylinderForm{ 
+    color: white;
+    font-family:'Poller One';
+    margin: auto;
+    text-align: center;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+
+}
+
+#sphericalPage{ 
+    color: white;
+    font-family:'Poller One';
+    margin: auto;
+    text-align: center;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+
+}
+
+#secondForm{ 
+    color: white;
+    font-family:'Poller One';
+    margin: auto;
+    text-align: center;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+
+}
+
+
+input[type=text] {
+    width: 20%;
+    padding: 12px 20px;
+    margin: auto;
+    box-sizing: border-box;
+    border: 2px solid white;
+    border-radius: 4px;
+  }
+  input[type=tel] {
+    width: 20%;
+    padding: 12px 20px;
+    margin: auto;
+    box-sizing: border-box;
+    border: 2px solid white;
+    border-radius: 4px;
+  }
+  input[type=email] {
+    width: 20%;
+    padding: 12px 20px;
+    margin: auto;
+    box-sizing: border-box;
+    border: 2px solid white;
+    border-radius: 4px;
+  }
+  input[type=button]{
+    background-color: green; /* Green */
+    border: 2px solid green;
+    border-radius: 4px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family: 'Poller One';
+    margin: 4px;
+  }
+  input[type=number] {
+    width: 7%;
+    padding: 2px 5px;
+    margin: 3px;
+    box-sizing: border-box;
+    border: 2px solid white;
+    border-radius: 4px;
+  }
+  input[type=button]:hover{
+    border-color: rgba(255,255,255,1);
+  }
+
+  #squareCubes{
+    background-color: crimson; /* Green */
+    border: 2px solid crimson;
+    border-radius: 30px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family: 'Poller One';
+    margin: 4px;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  }
+  #squareCubes:hover{
+    border-color: rgba(255,255,255,1);
+  }
+
+  input[type=reset]{
+    background-color: black; /* Green */
+    border: 2px solid black;
+    border-radius: 4px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family: 'Poller One';
+  }
+
+  input[type=reset]:hover{
+    border-color: rgba(255,255,255,1);
+  }
+
+  #cylinder{
+    background-color: silver; /* Green */
+    border: 2px solid silver;
+    border-radius: 30px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family: 'Poller One';
+    margin: 4px;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  }
+
+  #cylinder:hover{
+    border-color: rgba(255,255,255,1);
+  }
+
+  #spherical{
+    background-color: teal; /* Green */
+    border: 2px solid teal;
+    border-radius: 30px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family: 'Poller One';
+    margin: 4px;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  }
+
+  #spherical:hover{
+      border-color: white;
+  }
+
+  #cone{
+    background-color: lightgreen; /* Green */
+    border: 2px solid lightgreen;
+    border-radius: 30px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family: 'Poller One';
+    margin: 4px;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  
+  }
+
+  #cone:hover{
+   border-color:white;
+  
+  }
+
+  h2::first-letter{
+      color:black;
+      font-size:120%;
+  }
+
+  #result{
+    color: white;
+    font-family:'Poller One';
+    text-align: center;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+
+  }
